@@ -14,7 +14,7 @@ This project builds a data streaming pipeline using Apache Airflow to orchestrat
 - Apply Docker for setting up configuration for all components
   
 # Project Architecture
-
+![System Architecture Diagram](img/system_architecture_diagram.png)
 
 - **Apache Airflow, PostgreSQL**: orchestrates the pipeline and manages Airflow's metadata
 - **Apache Kafka, Zookeeper:** streams data in real-time between components
